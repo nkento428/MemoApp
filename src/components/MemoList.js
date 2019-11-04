@@ -6,27 +6,27 @@ class MemoList extends React.Component {
     return (
       <View style={styles.memoList}>
         <View style={styles.memoListItem}>
-          <Text style={styles.memoTytle}>タイトル</Text>
+          <Text style={styles.memoTitle}>タイトル</Text>
           <Text style={styles.memoDate}>2019/11/3</Text>
         </View>
 
         <View style={styles.memoListItem}>
-          <Text style={styles.memoTytle}>タイトル</Text>
+          <Text style={styles.memoTitle}>タイトル</Text>
           <Text style={styles.memoDate}>2019/11/3</Text>
         </View>
 
         <View style={styles.memoListItem}>
-          <Text style={styles.memoTytle}>タイトル</Text>
+          <Text style={styles.memoTitle}>タイトル</Text>
           <Text style={styles.memoDate}>2019/11/3</Text>
         </View>
 
         <View style={styles.memoListItem}>
-          <Text style={styles.memoTytle}>タイトル</Text>
+          <Text style={styles.memoTitle}>タイトル</Text>
           <Text style={styles.memoDate}>2019/11/3</Text>
         </View>
 
         <View style={styles.memoListItem}>
-          <Text style={styles.memoTytle}>タイトル４</Text>
+          <Text style={styles.memoTitle}>タイトル４</Text>
           <Text style={styles.memoDate}>2019/11/3</Text>
         </View>
       </View>
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ddd',
     backgroundColor: '#fff',
   },
-  memoTytle: {
+  memoTitle: {
     fontSize: 16,
     marginBottom: 4,
   },

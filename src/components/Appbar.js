@@ -6,7 +6,7 @@ class Appbar extends React.Component {
     return (
       <View style={styles.appbar}>
         <View>
-          <Text style={styles.appbarTytle}>
+          <Text style={styles.appbarTitle}>
             {this.props.children}
           </Text>
         </View>
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     zIndex: 10,
   },
-  appbarTytle: {
+  appbarTitle: {
     color: '#fff',
     fontSize: 24,
   },
