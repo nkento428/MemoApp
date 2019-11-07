@@ -8,8 +8,11 @@ import MemoDetailScreen from './src/screens/MemoDetailScreen';
 import MemoEditScreen from './src/screens/MemoEditScreen';
 import LoginScreen from './src/screens/LoginScreen';
 import SignupScreen from './src/screens/SignupScreen';
+import MemoCreateScreen from './src/screens/MemoCreateScreen';
 
 import ENV from './env.json';
+
+require("firebase/firestore");
 
 const firebaseConfig = {
   apiKey: ENV.FIREBASE_API_KEY,
@@ -31,6 +34,7 @@ const App = createStackNavigator({
   MemoDetail: { screen: MemoDetailScreen },
   MemoEdit: { screen: MemoEditScreen },
   MemoList: { screen: MemoListScreen },
+  MemoCreate: { screen: MemoCreateScreen },
 }, {
   defaultNavigationOptions: {
     headerTitle: 'MEMO',
